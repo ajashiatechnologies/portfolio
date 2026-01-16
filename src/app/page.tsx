@@ -1,5 +1,5 @@
 "use client";
-
+import ExperienceSection from "@/components/sections/experience";
 import React from "react";
 import SmoothScroll from "@/components/smooth-scroll";
 import { cn } from "@/lib/utils";
@@ -9,6 +9,7 @@ import ProjectsSection from "@/components/sections/projects";
 import ContactSection from "@/components/sections/contact";
 import HeroSection from "@/components/sections/hero";
 
+
 function MainPage() {
   return (
     <>
@@ -17,10 +18,13 @@ function MainPage() {
           <div className="top-0 z-0 fixed w-full h-screen">
             <AnimatedBackground />
           </div>
+
           <HeroSection />
-          <SkillsSection />
+          <ExperienceSection />
           <ProjectsSection />
+          <SkillsSection />
           <ContactSection />
+
         </main>
       </SmoothScroll>
     </>

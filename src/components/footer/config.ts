@@ -1,12 +1,9 @@
 const footer: { title: string; href: string }[] = [
   {
     title: "Blog",
-    href: "https://abhijitzende.hashnode.dev/",
+    href: "https://www.linkedin.com/pulse/qualcomm-acquires-arduino-meet-new-uno-q-ajay-kumar-d-jc8rc/",
   },
-  {
-    title: "Newsletter",
-    href: "https://abhijitzende.hashnode.dev/",
-  },
+  
 ];
 
 export { footer };

@@ -1,48 +1,50 @@
 const config = {
-  title: "Abhijit Zende | AI Enthusiast",
+  title: "Ajay Kumar | AI & Embedded Systems Developer",
   description: {
-    long: "Explore the portfolio of Abhijit, a Computer Science Engineer with 1.5 year experience in Devlopment, DevOps & Database management with hands-on experience in deploying & automating workflows, & collaborating with foreign clients. Strong analytical skills, effective communication, and a team-oriented approach to driving process improvements and delivering results.",
+    long:
+      "Explore the portfolio of Ajay Kumar — Founder of Ajashia Technologies, AI enthusiast, and Embedded Systems & Android Developer. Experienced in IoT, Wearables, Generative AI, and Educational Technology with hands-on experience in building end-to-end applications, creating impactful research prototypes, and presenting work internationally. Passionate about solving real-world problems through technology, entrepreneurship, and innovation.",
     short:
-      "Discover the portfolio of Abhijit, a AI enthusiast solving real life problems in DevOps and Development.",
+      "Discover the portfolio of Ajay Kumar — AI, Embedded & Android Developer building real-world tech products.",
   },
   keywords: [
-    "Abhijit",
-    "Abhijit Zende",
-    "abhijitzende",
-    "abhijitzende.com",
-    "Abhijit Zende portfolio",
+    "Ajay Kumar",
+    "Ajay",
+    "Ajashia Technologies",
+    "Learnura",
+    "Aura AI",
     "portfolio",
-    "DevOps",
-    "Devlopment",
-    "Database",
-    "AI Docker file optimizer",
-    "Finance me",
-    "creative technologist",
-    "web development",
-    "interactive websites",
-    // "GSAP",
-    // "React",
-    // "Next.js",
-    // "Spline",
-    // "Framer Motion",
-    "AWS",
-    "DevSecOps",
-    "AIOps",
-    "Azure",
+    "AI",
+    "Generative AI",
+    "Embedded Systems",
+    "IoT",
+    "Wearables",
+    "Android Development",
+    "Biometrics",
+    "Cybersecurity",
+    "3D Printing",
+    "AR VR",
+    "Startup",
+    "Tech Entrepreneur",
+    "EdTech",
   ],
-  author: "Abhijit Zende",
-  email: "abhijitzende75@gmail.com",
-  site: "https://abhijitzende.com",
+
+  author: "Ajay Kumar",
+
+  email: "dtajay9044@gmail.com",
+  site: "https://ajashiatechnologies.neocities.org/", // can change to personal domain later
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
+
   social: {
-    twitter: "https://x.com/_Abhi_Speaks/",
-    linkedin: "https://www.linkedin.com/in/zende-abhijit/",
-    instagram: "https://www.instagram.com/_.celestial_abhi._/",
-    facebook: "https://www.facebook.com/profile.php?id=100010029821759",
-    github: "https://github.com/Abhiz2411/",
+    youtube:"https://www.youtube.com/@ajtechnocenter",
+    twitter : "",
+    linkedin: "https://www.linkedin.com/in/ajay-kumar-d",
+    instagram: "https://www.instagram.com/minimorphstudios/", // you can change it to personal or brand
+    facebook: "",
+    github: "https://github.com/ajashiatechnologies",
   },
 };
+
 export { config };
