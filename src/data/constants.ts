@@ -35,7 +35,7 @@ export type Skill = {
   icon: string;
 };
 
-export const SKILLS: Record<SkillNames, Skill> = {
+export const SKILLS: Partial<Record<SkillNames, Skill>> = {
   // ANDROID FIRST
   [SkillNames.WORDPRESS]: {
     id: 1,
