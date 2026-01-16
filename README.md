@@ -25,7 +25,7 @@ The portfolio includes sections for:
 
 Clone the repository:
 ```bash
-git clone <repo-url>
+git clone https://github.com/ajashiatechnologies/portfolio.git
 ```
 
 Install dependencies:
