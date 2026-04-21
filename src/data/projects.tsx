@@ -425,7 +425,7 @@ const projects: Project[] = [
   title: "Enhancing Stress Prediction Accuracy using Deep Reinforcement Learning",
   src: "/assets/projects-screenshots/drl/1.png",
   screenshots: ["4.png","5.png","2.png","3.png"],
-  github?: string,
+  github?: "https://drive.google.com/drive/folders/15zFvzD5oWwLBH2KzlMY5gkWDU44huwm7?usp=sharing",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.spss],
