@@ -320,7 +320,7 @@ const projects: Project[] = [
   title: "SOS Watch — Emergency Alert Wearable",
   src: "/assets/projects-screenshots/sos-watch/1.png",
   screenshots: ["2.png"],
-  github?: string,
+  github?: "https://drive.google.com/drive/folders/16yUDC5QSRjCAAurmKo_-Iw6GKRzI9VnC?usp=sharing",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
