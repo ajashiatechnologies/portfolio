@@ -107,9 +107,6 @@ const HeroSection = () => {
                         </Button>
                       </Link>
                     </TooltipTrigger>
-                    <TooltipContent side="bottom">
-                      <p>pls 🥹 🙏</p>
-                    </TooltipContent>
                   </Tooltip>
                   <Link
                     href={config.social.github}
