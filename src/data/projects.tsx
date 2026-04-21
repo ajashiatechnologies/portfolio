@@ -283,7 +283,7 @@ const projects: Project[] = [
   title: "Learnura EduTech — Learning Platform",
   src: "/assets/projects-screenshots/learnura/1.png",
   screenshots: ["2.png", "3.png"],
-  github?: string,
+  github?: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
