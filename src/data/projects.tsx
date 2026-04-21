@@ -247,7 +247,7 @@ const projects: Project[] = [
   title: "Aura AI — Generative AI Chat Application",
   src: "/assets/projects-screenshots/aura/1.png",
   screenshots: ["2.png", "3.png"],
-  github?: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
+  github: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android, PROJECT_SKILLS.xml],
@@ -283,7 +283,7 @@ const projects: Project[] = [
   title: "Learnura EduTech — Learning Platform",
   src: "/assets/projects-screenshots/learnura/1.png",
   screenshots: ["2.png", "3.png"],
-  github?: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
+  github: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
@@ -320,7 +320,7 @@ const projects: Project[] = [
   title: "SOS Watch — Emergency Alert Wearable",
   src: "/assets/projects-screenshots/sos-watch/1.png",
   screenshots: ["2.png"],
-  github?: "https://drive.google.com/drive/folders/16yUDC5QSRjCAAurmKo_-Iw6GKRzI9VnC?usp=sharing",
+  github: "https://drive.google.com/drive/folders/16yUDC5QSRjCAAurmKo_-Iw6GKRzI9VnC?usp=sharing",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
@@ -355,7 +355,7 @@ const projects: Project[] = [
   title: "Bluetooth-Based Pulse & SpO2 Monitoring System",
   src: "/assets/projects-screenshots/spo2-monitor/1.png",
   screenshots: ["1.png"],
-  github?: "https://github.com/ajashiatechnologies/Portable-ECG-Montioring-Device-",
+  github: "https://github.com/ajashiatechnologies/Portable-ECG-Montioring-Device-",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
@@ -390,7 +390,7 @@ const projects: Project[] = [
   title: "Stampede Prediction in Live Feed using CSRNet",
   src: "/assets/projects-screenshots/csrnet/1.png",
   screenshots: ["2.png","3.png"],
-  github?: "https://github.com/ajashiatechnologies/crisisense_working",
+  github: "https://github.com/ajashiatechnologies/crisisense_working",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.html, PROJECT_SKILLS.css, PROJECT_SKILLS.javascript],
@@ -425,7 +425,7 @@ const projects: Project[] = [
   title: "Enhancing Stress Prediction Accuracy using Deep Reinforcement Learning",
   src: "/assets/projects-screenshots/drl/1.png",
   screenshots: ["4.png","5.png","2.png","3.png"],
-  github?: "https://drive.google.com/drive/folders/15zFvzD5oWwLBH2KzlMY5gkWDU44huwm7?usp=sharing",
+  github: "https://drive.google.com/drive/folders/15zFvzD5oWwLBH2KzlMY5gkWDU44huwm7?usp=sharing",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.spss],
@@ -464,7 +464,7 @@ const projects: Project[] = [
   title: "Personal Portfolio",
   src: "/assets/projects-screenshots/portfolio/1.png",
   screenshots: ["2.png","3.png"],
-  github?: "https://github.com/ajashiatechnologies/portfolio",
+  github: "https://github.com/ajashiatechnologies/portfolio",
   live: "#",
   skills: {
     frontend: [
