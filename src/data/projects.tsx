@@ -355,7 +355,7 @@ const projects: Project[] = [
   title: "Bluetooth-Based Pulse & SpO2 Monitoring System",
   src: "/assets/projects-screenshots/spo2-monitor/1.png",
   screenshots: ["1.png"],
-  github?: string,
+  github?: "https://github.com/ajashiatechnologies/Portable-ECG-Montioring-Device-",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android],
