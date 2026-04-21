@@ -10,14 +10,10 @@ import {
 } from "../ui/animated-modal";
 import { FloatingDock } from "../ui/floating-dock";
 import Link from "next/link";
-
+import { SiGithub } from "react-icons/si";
 import SmoothScroll from "../smooth-scroll";
 import projects, { Project } from "@/data/projects";
 import { cn } from "@/lib/utils";
-
-// Add GitHub import at top
-import { SiGithub } from "react-icons/si";
-
 
 const ProjectsSection = () => {
   return (
@@ -76,23 +72,25 @@ const Modall = ({ project }: { project: Project }) => {
             </ModalContent>
           </SmoothScroll>
 
-          // In ModalFooter, replace existing footer with:
-<ModalFooter className="gap-4">
-  <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
-    Close
-  </button>
-  <Link href={project.github ?? "https://github.com/ajashiatechnologies"} target="_blank">
-    <button className="flex items-center gap-2 bg-gray-900 text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-gray-800 w-28">
-      <SiGithub size={14} />
-      GitHub
-    </button>
-  </Link>
-  <Link href={project.live} target="_blank">
-    <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-      Visit
-    </button>
-  </Link>
-</ModalFooter>
+          <ModalFooter className="gap-4">
+            <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
+              Close
+            </button>
+            <Link
+              href={project.github ?? "https://github.com/ajashiatechnologies"}
+              target="_blank"
+            >
+              <button className="flex items-center justify-center gap-2 bg-gray-900 text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-gray-800 w-28">
+                <SiGithub size={14} />
+                GitHub
+              </button>
+            </Link>
+            <Link href={project.live} target="_blank">
+              <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
+                Visit
+              </button>
+            </Link>
+          </ModalFooter>
         </ModalBody>
       </Modal>
     </div>
@@ -128,7 +126,6 @@ const ProjectContents = ({ project }: { project: Project }) => {
         )}
       </div>
 
-      {/* NEW — CAROUSEL (Same style as Experience) */}
       {project.screenshots?.length > 0 && (
         <div className="relative w-full max-w-3xl mx-auto mb-6 select-none">
           <div className="flex overflow-x-auto snap-x snap-mandatory rounded-lg border border-neutral-800 scrollbar-hide">
@@ -149,13 +146,13 @@ const ProjectContents = ({ project }: { project: Project }) => {
             ))}
           </div>
 
-          {/* Arrows */}
           <div className="absolute inset-0 flex items-center justify-between px-3 pointer-events-none">
             <button
               onClick={(e) => {
                 e.stopPropagation();
                 const container =
-                  (e.currentTarget.parentElement?.previousElementSibling as HTMLDivElement) || null;
+                  (e.currentTarget.parentElement
+                    ?.previousElementSibling as HTMLDivElement) || null;
                 container?.scrollBy({ left: -500, behavior: "smooth" });
               }}
               className="pointer-events-auto bg-black/50 backdrop-blur px-2 py-1 rounded text-white text-xs"
@@ -166,7 +163,8 @@ const ProjectContents = ({ project }: { project: Project }) => {
               onClick={(e) => {
                 e.stopPropagation();
                 const container =
-                  (e.currentTarget.parentElement?.previousElementSibling as HTMLDivElement) || null;
+                  (e.currentTarget.parentElement
+                    ?.previousElementSibling as HTMLDivElement) || null;
                 container?.scrollBy({ left: 500, behavior: "smooth" });
               }}
               className="pointer-events-auto bg-black/50 backdrop-blur px-2 py-1 rounded text-white text-xs"
