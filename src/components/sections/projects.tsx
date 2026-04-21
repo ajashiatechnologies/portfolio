@@ -15,6 +15,10 @@ import SmoothScroll from "../smooth-scroll";
 import projects, { Project } from "@/data/projects";
 import { cn } from "@/lib/utils";
 
+// Add GitHub import at top
+import { SiGithub } from "react-icons/si";
+
+
 const ProjectsSection = () => {
   return (
     <section id="projects" className="max-w-7xl mx-auto md:h-[130vh]">
@@ -72,16 +76,23 @@ const Modall = ({ project }: { project: Project }) => {
             </ModalContent>
           </SmoothScroll>
 
-          <ModalFooter className="gap-4">
-            <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
-              Close
-            </button>
-            <Link href={project.live} target="_blank">
-              <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-                Visit
-              </button>
-            </Link>
-          </ModalFooter>
+          // In ModalFooter, replace existing footer with:
+<ModalFooter className="gap-4">
+  <button className="px-2 py-1 bg-gray-200 text-black dark:bg-black dark:border-black dark:text-white border border-gray-300 rounded-md text-sm w-28">
+    Close
+  </button>
+  <Link href={project.github ?? "https://github.com/ajashiatechnologies"} target="_blank">
+    <button className="flex items-center gap-2 bg-gray-900 text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-gray-800 w-28">
+      <SiGithub size={14} />
+      GitHub
+    </button>
+  </Link>
+  <Link href={project.live} target="_blank">
+    <button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
+      Visit
+    </button>
+  </Link>
+</ModalFooter>
         </ModalBody>
       </Modal>
     </div>
