@@ -247,7 +247,7 @@ const projects: Project[] = [
   title: "Aura AI — Generative AI Chat Application",
   src: "/assets/projects-screenshots/aura/1.png",
   screenshots: ["2.png", "3.png"],
-  github?: string,
+  github?: "https://github.com/ajay-kumar-simats/Learnura_EduTech_new",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.android, PROJECT_SKILLS.xml],
@@ -464,7 +464,7 @@ const projects: Project[] = [
   title: "Personal Portfolio",
   src: "/assets/projects-screenshots/portfolio/1.png",
   screenshots: ["2.png","3.png"],
-  github?: string,
+  github?: "https://github.com/ajashiatechnologies/portfolio",
   live: "#",
   skills: {
     frontend: [
