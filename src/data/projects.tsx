@@ -390,7 +390,7 @@ const projects: Project[] = [
   title: "Stampede Prediction in Live Feed using CSRNet",
   src: "/assets/projects-screenshots/csrnet/1.png",
   screenshots: ["2.png","3.png"],
-  github?: string,
+  github?: "https://github.com/ajashiatechnologies/crisisense_working",
   live: "#",
   skills: {
     frontend: [PROJECT_SKILLS.html, PROJECT_SKILLS.css, PROJECT_SKILLS.javascript],
